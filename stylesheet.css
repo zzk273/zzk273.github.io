@@ -140,3 +140,16 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#freemotion_image img {
+  height: 60%;
+  width: 100%;
+  object-fit: contain;
+}
