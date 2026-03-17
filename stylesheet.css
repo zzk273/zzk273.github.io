@@ -74,6 +74,32 @@ a:hover {
   text-decoration: none;
 }
 
+.x-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.2;
+  vertical-align: middle;
+  transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.x-link:focus,
+.x-link:hover {
+  color: #ffffff;
+  background: #000000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+
+.x-link .x-icon {
+  font-size: 12px;
+}
+
 body,
 td,
 th,
